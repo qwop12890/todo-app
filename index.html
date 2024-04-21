@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" id="display" >
+        <br>
+        <input type="button" value="%" id="modulsbutton" onclick="calculateModulus()">
+        <input type="button" value="√" class="ubtn" onclick="calculateSquareRoot()">
+        <input type="button" value="CE" class="ubtn">
+        <input type="button" value="C"class="clearbtn"  onclick="clearDisplay() ">
+        <br>
+        <input type="button" value="7" class="grp1" onclick="appendToDisplay('7')">
+        <input type="button" value="8" class="grp2" onclick="appendToDisplay('8')">
+        <input type="button" value="9" class="grp2"  onclick="appendToDisplay('9')">
+        <input type="button" value="-" class="minus" onclick="appendToDisplay('-')">
+        <br>
+        <input type="button" value="4"  class="grp1" onclick="appendToDisplay('4')">
+        <input type="button" value="5"  class="grp2" onclick="appendToDisplay('5')">
+        <input type="button" value="6" class="grp2" onclick="appendToDisplay('6')">
+        <input type="button" value="/" class="divide" onclick="appendToDisplay('/')">
+        <br>
+        <input type="button" value="1" class="grp1" onclick="appendToDisplay('1')">
+        <input type="button" value="2"  class="grp2"onclick="appendToDisplay('2')">
+        <input type="button" value="3"  class="grp2"onclick="appendToDisplay('3')">
+        <input type="button" value="*" class="multiply" onclick="appendToDisplay('*')">
+        <br>
+        <input type="button" value="." class="grp1" onclick="appendToDisplay('.')">
+        <input type="button" value="0" class="grp2" onclick="appendToDisplay('0')">
+        <input type="button" value="=" class="grp3" onclick="calculate()">
+        <input type="button" value="+" class="plus" onclick="appendToDisplay('+')">
+      </div> 
+</body>
+<script src="App.js"></script>
+
+</html>

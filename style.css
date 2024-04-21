@@ -1,0 +1,123 @@
+body{
+    background-color: rgba(34, 28, 28, 0.219);
+}
+*{
+padding: auto;
+margin: 0%;
+}
+#display{
+    margin-top: 10px;
+    margin-left: 12px;
+    width: 94px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: blue;
+    border: 0.1px solid blue;
+
+}
+.calculator{
+    margin-top: 35px;
+    margin-left: 180px;
+    height: 180px;
+    width: 125px;
+    background-color: rgb(255, 255, 255);
+}
+
+#modulsbutton{
+    margin-top: 3px;
+    margin-left: 5px;
+    background-color: #F5F7FF;
+    border: 1px solid #F5F7FF;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+.ubtn{
+    margin-top: 3px;
+    /* margin-right: 2px; */
+    text-align: center;
+    background-color: #F5F7FF;
+    border: 1px solid #F5F7FF;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+.clearbtn{
+    margin-top: 3px;
+    /* margin-left: 5px; */
+    background-color: #00043D;
+    border: 1px solid #00043D;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    color: white;
+}
+.grp1{
+    margin-top: 3px;
+    margin-left: 5px;
+    background-color: #D8DDF0;
+    border: 1px solid #D8DDF0;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}   
+.grp2{
+    margin-top: 3px;
+    /* margin-right: 2px; */
+    text-align: center;
+    background-color: #D8DDF0;
+    border: 1px solid #D8DDF0;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;   
+}
+.grp3{
+    margin-top: 3px;
+    /* margin-right: 2px; */
+    text-align: center;
+    background-color: white;
+    border: 1px solid rgb(0, 0, 0);
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;   
+}
+.minus{
+    margin-top: 3px;
+    /* margin-left: 5px; */
+    background-color: #FF435A;
+    border: 1px solid #FF435A;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    color: white;
+}
+.plus{
+    margin-top: 3px;
+    /* margin-left: 5px; */
+    background-color: #63DE77;
+    border: 1px solid #63DE77;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    color: white;
+}
+.divide{
+    margin-top: 3px;
+    /* margin-left: 5px; */
+    background-color: #2288FF;
+    border: 1px solid #2288FF;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    color: white;
+}
+.multiply{
+    margin-top: 3px;
+    /* margin-left: 5px; */
+    background-color: #FFC804;
+    border: 1px solid #FFC804;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    color: white;
+}
